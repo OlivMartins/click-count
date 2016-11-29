@@ -10,7 +10,7 @@ public class Configuration {
     public final int redisConnectionTimeout;  //milliseconds
 
     public Configuration() {
-        redisHost = "127.0.0.1";
+        redisHost = "redis";
         redisPort = 6379;
         redisConnectionTimeout = 2000;
     }
